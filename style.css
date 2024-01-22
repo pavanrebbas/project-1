@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/********************** Index page **********************/
+
+/********** Carousels *************/
+.carousel-dot-icon {
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 50%;
+    background-color: white;
+}
+
+/******** How it works ********/
+.image1 {
+    background-image: url("./Images/hiw-01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+}
+
+.image2 {
+    background-image: url("./Images/Hwi2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+}
+
+.image3 {
+    background-image: url("./Images/Hwi3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.image4 {
+    background-image: url("./Images/Hwi4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    background-position: center;
+}
+
+.image5 {
+    background-image: url("./Images/Hwi5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.text {
+
+    margin-top: 200px;
+}
+
+
+
+
+/******************** Client speak background image ********************/
+.clientspeakimage {
+    background-image: url("./Images/Client\ speak\ background\ image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    object-fit: cover;
+}
+
+
+/******************** CONTACT US PAGE ********************/
+.button1 {
+    background-color: #8cc63f !important;
+    padding: 10px 25px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    border: 1px solid #8cc63f;
+}
+
+
+.button1:hover {
+    background-color: white !important;
+    color: rgb(20, 19, 19);
+    padding: 10px 25px;
+    border: 1px solid #8cc63f;
+}
+
+.contactUs-cards {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+
+
+
+/* Media query */
+
+@media screen and (min-width: 280px) and (max-width: 1023px) {
+
+    .navbar1 {
+        display: none;
+    }
+
+
+}
