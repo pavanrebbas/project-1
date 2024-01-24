@@ -75,7 +75,7 @@
 }
 
 
-/******************** CONTACT US PAGE ********************/
+/*********************** CONTACT US PAGE ***********************/
 .button1 {
     background-color: #8cc63f !important;
     padding: 10px 25px;
@@ -107,10 +107,7 @@
 /* Media query */
 
 @media screen and (min-width: 280px) and (max-width: 1023px) {
-
     .navbar1 {
         display: none;
     }
-
-
 }
