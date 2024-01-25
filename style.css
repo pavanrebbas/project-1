@@ -16,38 +16,139 @@
     background-color: white;
 }
 
-/******** How it works ********/
+/******************* How it works ***********8********/
 
-div.images {
+.How-it-works-image {
     display: flex;
     position: relative;
-    overflow: auto;
+    overflow-x: scroll;
     white-space: nowrap;
-    padding: 10px;
 }
 
-div.images img {
-    padding: 10px;
+.image {
+    height: 550px;
+    object-fit: contain;
 }
 
-.img-num {
+.image:hover {
+    filter: brightness(50%);
+    cursor: pointer;
+    color: white;
+}
+
+
+/***** IMAGE-1 TEXT-1 *****/
+.img-number1 {
     position: absolute;
     top: 100px;
     left: 120px;
+    color: white;
+    font-size: 65px;
 }
 
-/* .img-text {
+.img-text {
     position: absolute;
     top: 300px;
-    left: 100px;
+    left: 70px;
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
 }
 
-.images img {
-    max-width: 350px;
-    width: 100%;
-    height: 550px
+.mobile-number {
+    position: absolute;
+    top: 330px;
+    left: 60px;
+    font-size: 25px;
+    color: white;
 }
- */
+
+
+/***** IMAGE-2 TEXT *****/
+.imgnumber2 {
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    font-size: 30px;
+    color: white;
+    font-size: 65px;
+}
+
+.onlinesitetext {
+    position: absolute;
+    top: 300px;
+    left: 365px;
+    font-size: 25px;
+    color: white;
+}
+
+/***** IMAGE-3 TEXT-1 *****/
+.imgnumber3 {
+    position: absolute;
+    top: 100px;
+    left: 730px;
+    font-size: 30px;
+    color: white;
+    font-size: 65px;
+}
+
+.Accurate-text {
+    position: absolute;
+    top: 300px;
+    left: 690px;
+    font-size: 25px;
+    color: white;
+}
+
+
+/***** IMAGE-4 TEXT-1 *****/
+.imgnumber4 {
+    position: absolute;
+    top: 100px;
+    left: 1015px;
+    font-size: 30px;
+    color: white;
+    font-size: 65px;
+}
+
+.instant-payment-text {
+    position: absolute;
+    top: 300px;
+    left: 1000px;
+    font-size: 25px;
+    color: white;
+}
+
+/***** IMAGE-5 TEXT-1 *****/
+.imgnumber5 {
+    position: absolute;
+    top: 100px;
+    left: 1330px;
+    font-size: 30px;
+    color: white;
+    font-size: 65px;
+}
+
+.responsible-text {
+    position: absolute;
+    top: 300px;
+    left: 1280px;
+    font-size: 25px;
+    color: white;
+}
+
+.How-it-works-image::-webkit-scrollbar {
+    width: 0 !important
+}
+
+
+@media screen and (max-width: 320px) {
+
+    .image {
+        height: 590px;
+        object-fit: contain;
+    }
+}
 
 
 
@@ -55,11 +156,19 @@ div.images img {
 .icons {
     display: flex;
     overflow-x: scroll;
-    gap: 1%;
+    gap: 3%;
 }
 
 .icons::-webkit-scrollbar {
     width: 0 !important
+}
+
+@media screen and (min-width: 1024px) {
+
+    .carosuel-slides-dots {
+        display: none;
+    }
+
 }
 
 
